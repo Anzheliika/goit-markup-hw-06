@@ -703,12 +703,17 @@ textarea {
 .form-footer {
   margin-left: 93px;
 }
-.mail-footer {
+.footer-label {
+  display: inline-block;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   color: var(--primery-white-color);
+}
+.div-form-mail {
+  display: flex;
+  align-items: center;
 }
 .footer-input {
   width: 358px;
@@ -736,10 +741,6 @@ textarea {
   text-align: center;
   cursor: pointer;
   letter-spacing: 0.06em;
-}
-.form-mail {
-  display: flex;
-  align-items: center;
 }
 .div-button-footer {
   position: relative;
